@@ -1,0 +1,48 @@
+.auth-form {
+    width: 200px;
+    text-align: center;
+}
+.auth-form > form > input[type=text],
+.auth-form > form > input[type=password] {
+    width: 100%;
+    display: block;
+    margin: 0 0 5px 0;
+}
+.auth-form > .error {
+    color: #f00;
+}
+.navi {
+ list-style: none;
+    padding: 0;
+    margin: 10px 0px;
+}
+
+.navi > li {
+    list-style: none;
+    padding: 0px 10px 0px 0px;
+    display: inline-block;
+}
+
+table {
+    border-collapse: collapse;
+    border: 0px;
+}
+
+table  tr > th {
+    border-bottom: 1px solid rgba(0,0,0,.5);
+}
+
+table  tr > td {
+    border-bottom: 1px solid rgba(0,0,0,.03);
+}
+
+table  tr:nth-child(even) > td {
+    background: rgba(0,0,0,.03);
+}
+
+table  tr > td,
+table  tr > th {
+    padding: 10px 20px;
+    border-left: 1px solid rgba(0,0,0,.03);
+    border-right: 1px solid rgba(0,0,0,.03);
+}
